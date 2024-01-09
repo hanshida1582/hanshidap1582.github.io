@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorgin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/15_254 imagens de Hs Imagens, fotos stock e vetores _ Shutterstock.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi,I'm<span> Hanshida</span><br> from Kerela</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about----------  -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/nextpic.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Hanshida, a 23 year old student based out of Kerala, India. I'm a B.Tech graduate specialized in Computer Science and Engineering from IESCE, Thrissur.I enjoy working on projects from where I get new experiences, meet new people and learn new things.Interested in IT/Tech field..
+                    
+                </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Experience</p>
+                        <p class="tab-links "onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language</span><br>C , PYTHON</li>
+                            <li><span>Web Development</span><br>HTML , CSS , JS , SQL , PHP</li>
+                            <li><span>Data analysis</span><br>PYTHON , SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>2022 - Final year project</span><br>Placement managment system for campus recruitment</li>
+                            <li><span>2022 - Mini project</span><br>Transciption software</li>
+                            <li><span>2021 - Personal</span><br>Personal portfolio website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2023</span><br> IES Thrissur</li>
+                            <li><span>2017 - 2019</span><br>CHSS Adakkakundu</li>
+                            <li><span>2017</span><br>CHSS Adakkakundu</li>
+                        </ul>
+                    </div>
+            </div>    
+        </div>
+    </div>  
+</div>
+<!-----------services-------->
+<div id="interests">
+    <div class="container">
+        <h1 class="sub-title">My Interests</h1>
+        <div class="interests-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Development</h2>
+                <P>Developing Websites for personal, business ,commercial purpose</P>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Full Stack Development/Develpr</h2>
+                <P>Build both front-end and back-end of website,apps.</P>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Data Analysis</h2>
+                <P>Analysing the data by identifying, collecting  the data to be analysed and clean the data for analysis and finally interpretting the result of analysis.</P>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>    
+</div>
+<!----------portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>personal portfolio Website to show the works of a person to the outside world.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Placement Managment System For Campus Recruitment</h3>
+                    <p>A web based managment system for campus palcement, helping students for placements.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Transciption software </h3>
+                    <p>A complete python based transcrption software, to convert a same video in different languages.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>hanshidapoovalappil@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9446997809</p>
+                <div class="social-icons">
+                    <a href="https://sw-ke.facebook.com/hanshida.poovalappil/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://in.linkedin.com/in/hanshida-poovalappil-5558a41ab"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.naukri.com/mnjuser/profile"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.naukri.com/mnjuser/profile"><i class="fab fa-telegram"></i></a>
+                </div>
+                <a href="images/Hanshida P. resume.1pdf.pdf" download class="btn btn2">Download</a>
+            </div>
+            <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>  
+    <div class="copyright">
+        <p>copyright c Hanshida. Made with <i class="fas fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   
+   
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3JkaY-U39T3dC0MViqXEC4KpNdA_MkU8Bcs55Z3aRkAjHE_aV-Xrsn_6ohUQNinv6lw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
